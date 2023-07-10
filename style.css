@@ -48,3 +48,39 @@ nav {
 .right_menu a:hover {
   background-color: rgb(206, 158, 158);
 }
+.banner {
+  height: 100vh;
+  background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_info {
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+.banner_info > h1 > span {
+  color: red;
+}
+.banner_info h1 {
+  font-size: 5.5rem;
+}
+.banner_info p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+.banner_info button {
+  padding: 0.9rem 1.5rem;
+  font-size: 1.1rem;
+  margin-left: 0.8rem;
+  border: none;
+}
+.banner_info button:first-of-type {
+  background-color: red;
+  color: white;
+}
