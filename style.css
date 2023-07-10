@@ -7,7 +7,7 @@
 
 /* Shared Style */
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -42,16 +42,17 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  padding: 5px 10px;
+  padding: 30px 20px;
   border-radius: 1px;
 }
 .right_menu a:hover {
   background-color: rgb(206, 158, 158);
 }
+/* Banner Area Style */
 .banner {
   height: 100vh;
   background-image: url("./asset/image/background.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
@@ -83,4 +84,68 @@ nav {
 .banner_info button:first-of-type {
   background-color: red;
   color: white;
+}
+
+/* Service area Style */
+.service_area {
+  height: 100vh;
+  background-image: url("./asset/image/service-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.service_left_info {
+  width: 50%;
+}
+.service_left_info button {
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 50px;
+  color: #7a7c7a;
+}
+.service_left_info span {
+  color: red;
+}
+.service_left_info h1 {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+.service_left_info p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.service_left_info li {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.service_left_btm,
+.author_info {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.author_info img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.service_left_info button:last-child {
+  color: red;
+}
+.author_btn {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid red;
+  height: 100px;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+.service_right_info {
+  width: 50%;
 }
