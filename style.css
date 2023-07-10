@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Shared Style */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Header Style */
+header {
+  background-color: #d5d2d2;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.left_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left_logo p {
+  color: blue;
+  font-size: 1.2rem;
+}
+.right_menu ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right_menu li {
+  list-style: none;
+}
+.right_menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 1px;
+}
+.right_menu a:hover {
+  background-color: rgb(206, 158, 158);
+}
