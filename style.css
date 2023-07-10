@@ -98,10 +98,15 @@ nav {
   display: flex;
   align-items: center;
 }
-
-.service_left_info {
-  width: 50%;
+.service_info {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
+
 .service_left_info button {
   padding: 0.9rem 2.2rem;
   border: none;
@@ -146,6 +151,24 @@ nav {
   margin-left: 50px;
   padding-left: 20px;
 }
+
+.service_right_info img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+.card {
+  background-color: white;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
 .service_right_info {
-  width: 50%;
+  display: flex;
+  gap: 10px;
 }
